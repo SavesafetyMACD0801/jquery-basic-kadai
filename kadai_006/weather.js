@@ -1,11 +1,4 @@
-$(function(){
+$(window).on('load',function(){
+  $('#target').addClass('heading')
 
-  $(window).on('load',function(){
-    $('#target').addClass('heading')
-  
-  });
- 
-
- 
-  
 });
